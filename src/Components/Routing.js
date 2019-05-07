@@ -8,6 +8,7 @@ import Help from './Help'
 import LoginScreen from '../Pages/LoginScreen'
 import NewUser from '../Pages/NewUser'
 import ForgotPassword from '../Pages/ForgotPassword';
+import PasswordChange from '../Pages/PasswordChange';
 
 export default () => {
 
@@ -22,6 +23,7 @@ export default () => {
         <Route path="/login" component={LoginScreen}/>
         <Route path="/newuser" component={NewUser}/>
         <Route path="/emailforgot" component={ForgotPassword}/>
+        <Route path="/reset" component={PasswordChange}/>
         
     </Switch>
 </Router>
