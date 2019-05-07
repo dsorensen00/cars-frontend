@@ -21,28 +21,24 @@ export default() => {
   const [password, setPassword] = useState("defaultPassword")
    
   return (
-    <div className="App">
-  
-          <form onSubmit={handleSubmit}  name="login">
-            <div >
-              <div>
-             <input type="email" placeholder="Enter email"
-              onChange= {e => setUserName( e.target.value)}/>
-              </div>
-            </div>
-            <div>
-            <div>
-               <input type="password" placeholder="Password"
-                onChange= { e => setPassword(e.target.value)}/>
-              </div>
-              </div>
-              <button type="submit">Submit</button>
-            </form>
-
- </div>
+    <>
+      <form onSubmit={handleSubmit}  name="login">
+        <div >
+          <div>
+            <input type="email" placeholder="E-mail" onChange= {e => setUserName( e.target.value)}/>
+          </div>
+        </div>
+        <div>
+          <div>
+            <input type="password" placeholder="Password" onChange= {e => setPassword(e.target.value)}/>
+          </div>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </>
     
   );
   
 }
 
-// export default Forms;
+
