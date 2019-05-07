@@ -1,15 +1,16 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
-import Login from '../Components/Login'
+
 
 
 export default() => {
     return(
     <div className='container-fluid'>
-    <button><a href="google.com">HOME</a></button>
-        <h1>My Dream Garage</h1>
-        <Login/>
-        <Navbar/>
+        <div className="row justify-content-right">    
+            <h1 className="col text-center">My Dream Garage</h1>
+            <button onClick={()=>window.location.href = "login"}>LOGIN</button>
+        </div>
+        <Navbar className="row"/>
         <div>
             <div className="row">    
                 <section name="Featured Article" className="col border">

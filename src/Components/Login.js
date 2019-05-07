@@ -15,23 +15,19 @@ export default() => {
         })
 
     }
-
+<iframe href=""
     
   const [userName, setUserName] = useState("defaultName")
   const [password, setPassword] = useState("defaultPassword")
    
   return (
     <>
-      <form onSubmit={handleSubmit}  name="login">
-        <div >
-          <div>
-            <input type="email" placeholder="E-mail" onChange= {e => setUserName( e.target.value)}/>
-          </div>
+      <form onSubmit={handleSubmit}  name="login" className="container">
+        <div className="row justify-content-around" >
+          <input type="email" placeholder="E-mail" onChange= {e => setUserName( e.target.value)} className="col-sm-6" />
         </div>
-        <div>
-          <div>
-            <input type="password" placeholder="Password" onChange= {e => setPassword(e.target.value)}/>
-          </div>
+        <div className="row justify-content-around">
+          <input type="password" placeholder="Password" onChange= {e => setPassword(e.target.value)} className="col-sm-6" />
         </div>
         <button type="submit">Submit</button>
       </form>
