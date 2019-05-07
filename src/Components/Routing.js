@@ -5,6 +5,8 @@ import Home from '../Pages/Home'
 import ForSale from './ForSale'
 import Videos from './Videos'
 import Help from './Help'
+import LoginScreen from '../Pages/LoginScreen'
+import NewUser from '../Pages/NewUser'
 
 export default () => {
 
@@ -16,6 +18,9 @@ export default () => {
         <Route path="/forsale" component={ForSale}/> 
         <Route path="/videos" component={Videos}/>
         <Route path="/help" component={Help}/>
+        <Route path="/login" component={LoginScreen}/>
+        <Route path="/newuser" component={NewUser}/>
+        
     </Switch>
 </Router>
     )}

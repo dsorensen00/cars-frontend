@@ -1,13 +1,13 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
-import Login from '../Components/Login'
+import LoginButton from '../Components/LoginButton'
 
 
 export default() => {
     return(
     <div className='App'>
         <h1>My Dream Garage</h1>
-        <Login/>
+        <LoginButton/>
         <Navbar/>
         <div className="row">
         
