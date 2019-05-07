@@ -7,6 +7,7 @@ import Videos from './Videos'
 import Help from './Help'
 import LoginScreen from '../Pages/LoginScreen'
 import NewUser from '../Pages/NewUser'
+import ForgotPassword from '../Pages/ForgotPassword';
 
 export default () => {
 
@@ -20,6 +21,7 @@ export default () => {
         <Route path="/help" component={Help}/>
         <Route path="/login" component={LoginScreen}/>
         <Route path="/newuser" component={NewUser}/>
+        <Route path="/emailforgot" component={ForgotPassword}/>
         
     </Switch>
 </Router>
