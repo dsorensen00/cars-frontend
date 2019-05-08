@@ -15,14 +15,14 @@ export default() => {
         })
 
     }
-<iframe href=""
+
     
   const [userName, setUserName] = useState("defaultName")
   const [password, setPassword] = useState("defaultPassword")
    
   return (
     <>
-      <form onSubmit={handleSubmit}  name="login" className="container">
+      <form onSubmit={handleSubmit}  name="login" className="container border pad">
         <div className="row justify-content-around" >
           <input type="email" placeholder="E-mail" onChange= {e => setUserName( e.target.value)} className="col-sm-6" />
         </div>
