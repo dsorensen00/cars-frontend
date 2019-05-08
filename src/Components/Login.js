@@ -22,15 +22,19 @@ export default() => {
    
   return (
     <>
-      <form onSubmit={handleSubmit}  name="login" className="container border pad">
-        <div className="row justify-content-around" >
-          <input type="email" placeholder="E-mail" onChange= {e => setUserName( e.target.value)} className="col-sm-6" />
-        </div>
-        <div className="row justify-content-around">
-          <input type="password" placeholder="Password" onChange= {e => setPassword(e.target.value)} className="col-sm-6" />
-        </div>
-        <button type="submit">Submit</button>
-      </form>
+      <div className="background">
+        <form onSubmit={handleSubmit}  name="login" className="container pad">
+          <div className="row justify-content-around" >
+            <input type="email" placeholder="E-mail" onChange= {e => setUserName( e.target.value)} className="col-sm-5 top-space input" />
+          </div>
+          <div className="row justify-content-around">
+            <input type="password" placeholder="Password" onChange= {e => setPassword(e.target.value)} className="col-sm-5 top-space input" />
+          </div>
+          <div className="row justify-content-around">
+            <button type="submit" className="btn btn-primary top-space">Lessa GO</button>
+          </div>
+        </form>
+      </div>
     </>
     
   );
