@@ -31,8 +31,36 @@
     transform: rotate(360deg);
   }
 }
-[name="login"]{
-  text-align: right;
-   
+
+
+/*////////////Login.js/////////////////*//*////////////Login.js/////////////////*/
+.pad{
+  padding:25px;
+}
+
+.top-space{
+  margin-top: 25px;
+  padding:10px;
+}
+
+.input{
+  border-radius: 7px;
+  border:none;
+}
+
+form{
+  border-radius: 10px;
+  background: #f1f1f19f;
+  max-width: 50vw !important;
+}
+
+.background{
+  background-image: url("https://farm5.staticflickr.com/4414/37090695712_91f977c619_h.jpg");
+  height: 600px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top:25vh;
   
 }
