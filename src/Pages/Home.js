@@ -9,7 +9,7 @@ export default() => {
     <div className='container-fluid'>
         <div className="row justify-content-right">    
             <h1 className="col text-center">My Dream Garage</h1>
-            <button onClick={()=>window.location.href = "login"}>LOGIN</button>
+            <LoginButton />
         </div>
         <Navbar className="row"/>
         <div>
