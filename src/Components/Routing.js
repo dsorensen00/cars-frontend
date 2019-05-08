@@ -9,6 +9,7 @@ import LoginScreen from '../Pages/LoginScreen'
 import NewUser from '../Pages/NewUser'
 import ForgotPassword from '../Pages/ForgotPassword';
 import PasswordChange from '../Pages/PasswordChange';
+import BlogPage from '../Pages/BlogPage';
 
 export default () => {
 
@@ -24,6 +25,8 @@ export default () => {
         <Route path="/newuser" component={NewUser}/>
         <Route path="/emailforgot" component={ForgotPassword}/>
         <Route path="/reset" component={PasswordChange}/>
+        <Route path="/blog" component={BlogPage}/>
+
         
     </Switch>
 </Router>
