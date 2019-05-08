@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import Navbar from './Navbar'
 
 
 
@@ -22,6 +23,7 @@ export default() => {
    
   return (
     <>
+    <Navbar/>
       <div className="background">
         <form onSubmit={handleSubmit}  name="login" className="container pad">
           <div className="row justify-content-around" >
