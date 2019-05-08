@@ -10,10 +10,8 @@ export default () =>{
 
 
     return (
-
-<Login/>
-
-
-
-
-)}
+        <>
+         <Login/>
+        </>
+    )
+}
