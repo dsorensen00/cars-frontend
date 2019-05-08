@@ -31,8 +31,11 @@
     transform: rotate(360deg);
   }
 }
-[name="login"]{
-  text-align: right;
-   
-  
+
+
+/*////////////Login.js/////////////////*//*////////////Login.js/////////////////*/
+.pad{
+  padding:25px;
+  margin-top:25vh;
 }
+
